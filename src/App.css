@@ -1,0 +1,158 @@
+/* Import Bootstrap CSS */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+/* Global Styles */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.site-slogan {
+  color: #fff;
+  font-family: "Fira Mono", sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 70px;
+}
+.header-content {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+=================================================
+.default-section {
+  margin-bottom: 80px;
+}
+
+.section-heading {
+  background-color: #fff;
+  box-shadow: 0 10px 10px 0 rgba(168, 164, 164, 0.822);
+  padding: 30px 0;
+  margin-bottom: 30px;
+}
+
+.section-heading .section-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 3px;
+  font-size: 33px;
+}
+
+=================================================
+
+
+.site-title {
+  margin-bottom: 0;
+}
+
+.site-title .site-name {
+  color: #fff;
+  font-family: "Fira Mono", sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 60px;
+  position: relative;
+  letter-spacing: 5px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+.box-title {
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #323232;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.section-box {
+  background-color: rgba(238, 238, 238, 0.411);
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.profile-photo .profile-img {
+  width: 100%;
+  height: auto;
+}
+
+.about-content p {
+  margin-bottom: 16px;
+}
+
+.download-btn {
+  background-color: rgb(161, 161, 161);
+}
+
+.download-btn:hover {
+  background-color: #333;
+}
+
+
+@media (min-width: 768px) and (max-width:992px)  {
+  .box-title{
+    font-size: 16px;
+    margin: 0 0 8px 0;
+  }
+  
+}
+@media (max-width:431px){
+  .row{
+    margin: 0;
+  }
+  .section-box{
+    padding: 4px;
+    
+  }
+  .col-md-3,
+  .col-md-6{
+    padding:8px 4px 8px 4px;
+  }
+  
+}
+
+.address-line li {
+  margin-bottom: 10px; /* Khoảng cách giữa các dòng */
+  list-style-type: none; /* Loại bỏ dấu chấm đầu dòng mặc định của danh sách */
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  padding-left: 12px;
+}
+
+.address-line li:before {
+  margin-right: 5px; /* Khoảng cách giữa biểu tượng và văn bản */
+}
