@@ -1,19 +1,28 @@
 /* Import Bootstrap CSS */
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
-/* Global Styles */
+/* Base Styles */
+:root{
+  --font-family: 'Open Sans', sans-serif;
+  --font-size: 14px;
+  --line-height: 1.4;
+}
+
 html {
-  font-family: sans-serif;
+  font-family: var(--font-family);
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
   margin: 0;
-  font-size: 14px;
-  line-height: 1.4;
+  font-size: var(--font-size);
+  line-height: var(--line-height);
 }
+
+
+/* Header Styles */
+
 .site-slogan {
   color: #fff;
   font-family: "Fira Mono", sans-serif;
@@ -22,16 +31,19 @@ body {
   text-align: center;
   line-height: 70px;
 }
+
 .header-content {
-  margin: 0;
-  padding: 0;
-  background-color: #000;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: #000;
+  margin: 0;
+  padding: 0;
 }
-=================================================
+
+/* Section Styles */
+
 .default-section {
   margin-bottom: 80px;
 }
@@ -53,7 +65,6 @@ body {
   font-size: 33px;
 }
 
-=================================================
 
 
 .site-title {
@@ -74,7 +85,6 @@ body {
   background-repeat: no-repeat;
   background-size: 80%;
   animation: animate 3s linear infinite;
-  -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
 
@@ -120,10 +130,12 @@ body {
 }
 
 
+/* Media Queries */
+
 @media (min-width: 768px) and (max-width:992px)  {
   .box-title{
     font-size: 16px;
-    margin: 0 0 8px 0;
+    margin-bottom: 8px;
   }
   
 }
@@ -131,15 +143,16 @@ body {
   .row{
     margin: 0;
   }
+
   .section-box{
     padding: 4px;
     
   }
+
   .col-md-3,
   .col-md-6{
-    padding:8px 4px 8px 4px;
+    padding:8px 4px;
   }
-  
 }
 
 .address-line li {
@@ -149,7 +162,7 @@ body {
   align-items: center;
 }
 
-.item {
+.address-line li .item {
   padding-left: 12px;
 }
 
