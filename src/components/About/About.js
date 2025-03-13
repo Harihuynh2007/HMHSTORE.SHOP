@@ -44,9 +44,15 @@ const About = () => {
                 <h2 class="box-title">Contact Info</h2>
                 <address>
                   <ul class="address-line">
-                    <li><i class="fa-solid fa-location-dot fa-xl"></i> <span class="item"> Ho Chi Minh City</span></li>
-                    <li><i class="fa fa-phone fa-xl"></i><span class="item"> +84 37284xxxx</span></li>
-                    <li><i class="fa-solid fa-envelope fa-xl"></i><span class="item">Hminhhai2000@gmail.com</span> </li>  
+                    <li>
+                      <i class="fa-solid fa-location-dot fa-xl"></i> 
+                      <span class="item"> Ho Chi Minh City</span></li>
+                    <li>
+                      <i class="fa fa-phone fa-xl"></i>
+                      <span class="item"> +84 37284xxxx</span></li>
+                    <li>
+                      <i class="fa-solid fa-envelope fa-xl"></i>
+                      <span class="item">Hminhhai2000@gmail.com</span> </li>  
                   </ul>
                 </address>
               </div>
