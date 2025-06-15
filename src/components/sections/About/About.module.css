@@ -1,0 +1,33 @@
+.profilePhoto {
+  width: 100%;
+  height: auto;
+}
+
+.aboutContent p {
+  margin-bottom: 16px;
+}
+
+.downloadBtn {
+  background-color: rgb(161, 161, 161);
+}
+
+.downloadBtn:hover {
+  background-color: #333;
+}
+
+.addressLine li {
+  margin-bottom: 10px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  padding-left: 12px;
+}
+.avatarImage {
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
