@@ -5,7 +5,7 @@ import './App.css';
 import Header from './components/sections/Header/Header';
 import About from './components/sections/About/About';
 import Skills from './components/sections/Skills/Skills';
-import Experience from './components/sections/Experience/Experience';
+import Projects from './components/sections/Project/Projects';
 
 function App() {
   
@@ -14,7 +14,7 @@ function App() {
       <Header />
       <About />
       <Skills />
-      <Experience />
+      <Projects/>
     </div>
   );
 }
