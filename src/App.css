@@ -44,12 +44,7 @@ body {
 
 /* Section Styles */
 
-.default-section {
-  margin-bottom: 80px;
-}
-
 .section-heading {
-  background-color: #fff;
   box-shadow: 0 10px 10px 0 rgba(168, 164, 164, 0.822);
   padding: 30px 0;
   margin-bottom: 30px;
@@ -66,9 +61,11 @@ body {
 }
 
 
-
 .site-title {
-  margin-bottom: 0;
+  color: #64ffda;
+  text-align: center;
+  font-size: 28px;
+  letter-spacing: 2px;
 }
 
 .site-title .site-name {
@@ -107,9 +104,10 @@ body {
 }
 
 .section-box {
-  background-color: rgba(238, 238, 238, 0.411);
-  border-radius: 10px;
-  padding: 12px;
+  border-radius: 12px;
+  padding: 24px;
+  backdrop-filter: blur(6px); /* rất trendy */
+  background-color: rgba(255, 255, 255, 0.05);
 }
 
 .profile-photo .profile-img {
@@ -141,7 +139,8 @@ body {
 }
 @media (max-width:431px){
   .row{
-    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .section-box{

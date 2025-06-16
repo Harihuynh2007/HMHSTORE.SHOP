@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './App.css';
 
 import Header from './components/sections/Header/Header';
@@ -7,6 +8,7 @@ import Skills from './components/sections/Skills/Skills';
 import Experience from './components/sections/Experience/Experience';
 
 function App() {
+  
   return (
     <div className="App">
       <Header />
