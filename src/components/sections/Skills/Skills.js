@@ -14,19 +14,15 @@ const skillsData = [
   },
   {
     category: 'Mobile',
-    items: ['React Native', 'Redux']
+    items: ['React Native']
   },
   {
     category: 'Backend',
-    items: ['Node.js', 'Express', 'RESTful APIs']
-  },
-  {
-    category: 'Databases',
-    items: ['MongoDB', 'MySQL']
+    items: ['Node.js', 'RESTful APIs']
   },
   {
     category: 'Version Control',
-    items: ['Git', 'GitHub']
+    items: ['Git']
   },
   
 ];
