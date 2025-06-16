@@ -23,7 +23,7 @@ const About = () => {
             >
               <div className={`${styles.profilePhoto} section-box`}>
                 <img 
-                  src="/avatar_about.jpg" 
+                  src="/avatar_cool.jpg" 
                   alt="Minh Hai" 
                   className={`img-fluid img-thumbnail ${styles.avatarImage}`}
                 />
